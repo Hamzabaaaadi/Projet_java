@@ -1,0 +1,12 @@
+=== RAPPORT DES VENTES ===
+Chiffre d'affaires (payé): 0,00 DH
+Chiffre d'affaires (tous billets non annulés): 685,00 DH
+Nombre total de billets vendus: 5
+Nombre de clients: 25
+
+Top 5 billets les plus chers:
+  1. BIL000003 - 200,00 DH
+  2. BIL000002 - 150,00 DH
+  3. BIL000004 - 150,00 DH
+  4. BIL000001 - 135,00 DH
+  5. BIL000005 - 50,00 DH

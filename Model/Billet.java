@@ -21,6 +21,30 @@ public class Billet {
         this.montant = montant;
         this.dateReservation = LocalDateTime.now();
     }
+
+    // Constructeur pour la désérialisation (charger depuis JSON)
+    public Billet(String codeBillet, Client client, Match match, ZonePlace zone, double montant, String statut, LocalDateTime dateReservation) {
+        this.codeBillet = codeBillet;
+        this.client = client;
+        this.match = match;
+        this.zone = zone;
+        this.statut = statut == null ? "RESERVE" : statut;
+        this.montant = montant;
+        this.dateReservation = dateReservation == null ? LocalDateTime.now() : dateReservation;
+
+        // Mettre à jour le compteur pour éviter les collisions de codes
+        try {
+            if (codeBillet != null && codeBillet.startsWith("BIL")) {
+                String num = codeBillet.substring(3);
+                int n = Integer.parseInt(num);
+                if (n >= compteurCode) {
+                    compteurCode = n + 1;
+                }
+            }
+        } catch (Exception e) {
+            // ignorer si parsing échoue
+        }
+    }
     
     // Getters et setters
     public String getCodeBillet() { return codeBillet; }
