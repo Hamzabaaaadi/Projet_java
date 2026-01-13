@@ -19,6 +19,8 @@ public class Main {
         
         // Initialisation avec des données de test
         initialiserDonneesTest();
+        // Charger les billets précédemment sauvegardés (persistés)
+        service.chargerBilletsDepuisJSON("exports/billets_reserves.json");
         
         boolean continuer = true;
         while (continuer) {
@@ -174,6 +176,30 @@ public class Main {
         }
         
         Match match = matchs.get(choixMatch);
+        // Afficher la capacité actuelle du match et la capacité restante
+        System.out.println("Capacité actuelle du match: " + match.getCapacite());
+        int restante = service.getCapaciteRestante(match);
+        System.out.println("Capacité restante disponible pour ce match (avant ajout): " + restante);
+        System.out.print("Souhaitez-vous modifier la capacité du match? (oui/non) : ");
+        String modCap = scanner.nextLine().trim();
+        if (modCap.equalsIgnoreCase("oui") || modCap.equalsIgnoreCase("o")) {
+            System.out.print("Nouvelle capacité pour le match: ");
+            try {
+                int newCap = Integer.parseInt(scanner.nextLine().trim());
+                if (newCap <= 0) {
+                    System.out.println("Capacité invalide, opération annulée.");
+                    return;
+                }
+                match.setCapacite(newCap);
+                System.out.println("Capacité du match mise à jour: " + match.getCapacite());
+            } catch (NumberFormatException e) {
+                System.out.println("Entrée invalide, opération annulée.");
+                return;
+            }
+            // recalculer restante
+            restante = service.getCapaciteRestante(match);
+            System.out.println("Capacité restante disponible pour ce match (après modification): " + restante);
+        }
         
         // Choix du type de zone (enum)
         model.ZoneType[] zoneTypes = model.ZoneType.values();
@@ -493,6 +519,10 @@ public class Main {
         System.out.println("\n--- Rapports ---");
         
         service.genererRapportVentes();
+        // Exporter le rapport dans un fichier texte
+        String chemin = "exports/rapport_ventes.txt";
+        service.exporterRapportTXT(chemin);
+        System.out.println("Rapport exporté dans: " + chemin);
     }
     
     // ==== INITIALISATION DES DONNÉES DE TEST ====

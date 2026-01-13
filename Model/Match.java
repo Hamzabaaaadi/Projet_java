@@ -13,6 +13,7 @@ public class Match {
     private Stade stade;
     private LocalDateTime dateHeure;
     private int importance; // 1: Normal, 2: Important, 3: Très important
+    private int capacite; // capacité effective pour le match (peut être inférieure au stade)
     
     public Match(String equipe1, String equipe2, Stade stade, 
                  LocalDateTime dateHeure, int importance) throws DonneeInvalideException {
@@ -30,6 +31,8 @@ public class Match {
         this.stade = stade;
         this.dateHeure = dateHeure;
         this.importance = importance;
+        // Par défaut, la capacité du match est la capacité du stade
+        this.capacite = stade.getCapacite();
     }
     
     // Getters
@@ -39,6 +42,8 @@ public class Match {
     public Stade getStade() { return stade; }
     public LocalDateTime getDateHeure() { return dateHeure; }
     public int getImportance() { return importance; }
+    public int getCapacite() { return capacite; }
+    public void setCapacite(int capacite) { this.capacite = capacite; }
     
     public double getCoefficientImportance() {
         return switch (importance) {

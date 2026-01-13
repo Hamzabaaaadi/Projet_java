@@ -1,0 +1,62 @@
+[
+  {
+    "codeBillet": "BIL000001",
+    "nomClient": "Spectateur 18",
+    "emailClient": "spectateur18@email.com",
+    "codeMatch": "MAT002",
+    "equipe1": "Équipe A2",
+    "equipe2": "Équipe B2",
+    "zone": "Zone 2",
+    "statut": "RESERVE",
+    "montant": 135.00,
+    "dateReservation": "2026-01-13T21:24:07.545924700"
+  },
+  {
+    "codeBillet": "BIL000002",
+    "nomClient": "Spectateur 4",
+    "emailClient": "spectateur4@email.com",
+    "codeMatch": "MAT002",
+    "equipe1": "Équipe A2",
+    "equipe2": "Équipe B2",
+    "zone": "Zone 2",
+    "statut": "CONFIRME",
+    "montant": 150.00,
+    "dateReservation": "2026-01-13T21:32:39.636485100"
+  },
+  {
+    "codeBillet": "BIL000003",
+    "nomClient": "Spectateur 14",
+    "emailClient": "spectateur14@email.com",
+    "codeMatch": "MAT005",
+    "equipe1": "Équipe A5",
+    "equipe2": "Équipe B5",
+    "zone": "Zone 3",
+    "statut": "RESERVE",
+    "montant": 200.00,
+    "dateReservation": "2026-01-13T21:33:19.540179600"
+  },
+  {
+    "codeBillet": "BIL000004",
+    "nomClient": "Spectateur 20",
+    "emailClient": "spectateur20@email.com",
+    "codeMatch": "MAT005",
+    "equipe1": "Équipe A5",
+    "equipe2": "Équipe B5",
+    "zone": "Zone 2",
+    "statut": "RESERVE",
+    "montant": 150.00,
+    "dateReservation": "2026-01-13T21:40:55.572863400"
+  },
+  {
+    "codeBillet": "BIL000005",
+    "nomClient": "Spectateur 16",
+    "emailClient": "spectateur16@email.com",
+    "codeMatch": "MAT006",
+    "equipe1": "Équipe A6",
+    "equipe2": "Équipe B6",
+    "zone": "Zone 1",
+    "statut": "RESERVE",
+    "montant": 50.00,
+    "dateReservation": "2026-01-13T21:58:24.115435500"
+  }
+]
