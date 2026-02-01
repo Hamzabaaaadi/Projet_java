@@ -1,0 +1,187 @@
+[
+  {
+    "type": "Media",
+    "nom": "Salim Azizi",
+    "email": "salim.azizi@press.ma",
+    "typeMedia": "TV",
+    "accredite": false
+  },
+  {
+    "type": "Media",
+    "nom": "Rida Hasnaoui",
+    "email": "rida.hasnaoui@press.ma",
+    "typeMedia": "Radio",
+    "accredite": false
+  },
+  {
+    "type": "Media",
+    "nom": "Amine Bidouni",
+    "email": "amine.bidouni@press.ma",
+    "typeMedia": "Presse",
+    "accredite": false
+  },
+  {
+    "type": "Media",
+    "nom": "Safae Jarmouni",
+    "email": "safae.jarmouni@press.ma",
+    "typeMedia": "Web",
+    "accredite": false
+  },
+  {
+    "type": "Media",
+    "nom": "Ahlam Dani",
+    "email": "ahlam.dani@press.ma",
+    "typeMedia": "Presse",
+    "accredite": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Youssef El Amrani",
+    "email": "youssef.el.amrani@mail.ma",
+    "fidele": true
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Fatima Zahra Benali",
+    "email": "fatima.zahra.benali@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Mohamed Idrissi",
+    "email": "mohamed.idrissi@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Khadija El Hajj",
+    "email": "khadija.el.hajj@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Hassan Ouazzani",
+    "email": "hassan.ouazzani@mail.ma",
+    "fidele": true
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Imane El Khatib",
+    "email": "imane.el.khatib@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Rachid Bekkali",
+    "email": "rachid.bekkali@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Zineb Chraibi",
+    "email": "zineb.chraibi@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Omar El Fassi",
+    "email": "omar.el.fassi@mail.ma",
+    "fidele": true
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Najat El Idrissi",
+    "email": "najat.el.idrissi@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Soufiane Bennis",
+    "email": "soufiane.bennis@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Leila Bourhim",
+    "email": "leila.bourhim@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Adil Saidi",
+    "email": "adil.saidi@mail.ma",
+    "fidele": true
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Meryem Haddad",
+    "email": "meryem.haddad@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Anas El Mansouri",
+    "email": "anas.el.mansouri@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Nour El Khattabi",
+    "email": "nour.el.khattabi@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Karim Azmani",
+    "email": "karim.azmani@mail.ma",
+    "fidele": true
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Samira El Omari",
+    "email": "samira.el.omari@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Reda Amghar",
+    "email": "reda.amghar@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Sara Amrani",
+    "email": "sara.amrani@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Hicham El Alaoui",
+    "email": "hicham.el.alaoui@mail.ma",
+    "fidele": true
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Salma Bouzid",
+    "email": "salma.bouzid@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Walid El Fadili",
+    "email": "walid.el.fadili@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Siham El Gharbi",
+    "email": "siham.el.gharbi@mail.ma",
+    "fidele": false
+  },
+  {
+    "type": "Spectateur",
+    "nom": "Amine Chafai",
+    "email": "amine.chafai@mail.ma",
+    "fidele": true
+  }
+]

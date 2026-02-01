@@ -21,7 +21,7 @@ public class Spectateur extends Client {
     
     @Override
     public String toString() {
-        return "Spectateur" + super.toString().substring(6) + 
-               String.format(", Fidèle=%s", fidele);
+        return String.format("Spectateur[ID=%d, Nom=%s, Email=%s, Réduction=%.2f%%, Fidèle=%s]",
+            getId(), getNom(), getEmail(), getReduction() * 100, fidele);
     }
 }

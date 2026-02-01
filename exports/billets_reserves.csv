@@ -1,12 +1,42 @@
-CodeBillet,NomClient,EmailClient,CodeMatch,Equipe1,Equipe2,Zone,Statut,Montant,DateReservation
-BIL000001,Spectateur 18,spectateur18@email.com,MAT003,Équipe A3,Équipe B3,Zone 2,RESERVE,67,50,2026-01-13T21:01:08.377327800
-BIL000001,Spectateur 13,spectateur13@email.com,MAT005,Équipe A5,Équipe B5,Zone 3,RESERVE,200,00,2026-01-13T21:06:43.964311800
-BIL000002,Spectateur 17,spectateur17@email.com,MAT003,Équipe A3,Équipe B3,Zone 1,RESERVE,50,00,2026-01-13T21:07:42.871086300
-BIL000001,Spectateur 20,spectateur20@email.com,MAT008,Équipe A8,Équipe B8,Zone 1,RESERVE,100,00,2026-01-13T21:12:54.484617800
-BIL000001,Spectateur 5,spectateur5@email.com,MAT004,Équipe A4,Équipe B4,Zone 1,RESERVE,75,00,2026-01-13T21:19:02.635248400
-BIL000001,Spectateur 13,spectateur13@email.com,MAT005,Équipe A5,Équipe B5,Zone 2,RESERVE,150,00,2026-01-13T21:20:09.098433400
-BIL000001,Spectateur 18,spectateur18@email.com,MAT002,Équipe A2,Équipe B2,Zone 2,RESERVE,135,00,2026-01-13T21:24:07.545924700
-BIL000002,Spectateur 4,spectateur4@email.com,MAT002,Équipe A2,Équipe B2,Zone 2,RESERVE,150,00,2026-01-13T21:32:39.636485100
-BIL000003,Spectateur 14,spectateur14@email.com,MAT005,Équipe A5,Équipe B5,Zone 3,RESERVE,200,00,2026-01-13T21:33:19.540179600
-BIL000004,Spectateur 20,spectateur20@email.com,MAT005,Équipe A5,Équipe B5,Zone 2,RESERVE,150,00,2026-01-13T21:40:55.572863400
-BIL000005,Spectateur 16,spectateur16@email.com,MAT006,Équipe A6,Équipe B6,Zone 1,RESERVE,50,00,2026-01-13T21:58:24.115435500
+CodeBillet,NomClient,EmailClient,CodeMatch,Equipe1,Equipe2,Zone,Statut,Montant,DateReservation,MediaAccredite
+BIL000001,Salim Azizi,salim.azizi@press.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,112.50,2026-02-01T19:20:53.9839141,NON
+BIL000002,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,RESERVE,25.00,2026-02-01T19:21:28.0311742,NON
+BIL000003,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT001,Maroc,Zambie,Zone 1,CONFIRME,45.00,2026-02-01T19:21:55.5432524,NON
+BIL000004,Amine Bidouni,amine.bidouni@press.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,25.00,2026-02-01T19:22:24.0634178,NON
+BIL000005,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,350.00,2026-02-01T19:22:44.3548359,NON
+BIL000006,Ahlam Dani,ahlam.dani@press.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,112.50,2026-02-01T19:23:17.0914727,NON
+BIL000007,Mohamed Idrissi,mohamed.idrissi@mail.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,700.00,2026-02-01T19:24:33.0566059,
+BIL000008,Omar El Fassi,omar.el.fassi@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,45.00,2026-02-01T19:25:04.3814243,
+BIL000009,Karim Azmani,karim.azmani@mail.ma,MAT001,Maroc,Zambie,Zone 1,CONFIRME,81.00,2026-02-01T19:25:22.9673265,
+BIL000010,Hicham El Alaoui,hicham.el.alaoui@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,45.00,2026-02-01T19:26:16.5876578,
+BIL000011,Meryem Haddad,meryem.haddad@mail.ma,MAT001,Maroc,Zambie,Zone 1,CONFIRME,90.00,2026-02-01T19:26:41.4937443,
+BIL000012,Samira El Omari,samira.el.omari@mail.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,700.00,2026-02-01T19:27:32.8220265,
+BIL000013,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,350.00,2026-02-01T19:28:02.3120852,NON
+BIL000014,Siham El Gharbi,siham.el.gharbi@mail.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,700.00,2026-02-01T19:28:30.3834351,
+BIL000015,Zineb Chraibi,zineb.chraibi@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,50.00,2026-02-01T19:28:57.7361679,
+BIL000016,Walid El Fadili,walid.el.fadili@mail.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,225.00,2026-02-01T19:29:21.3514193,
+BIL000017,baadi,baadi@gmail.com,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,25.00,2026-02-01T19:30:17.6372958,NON
+BIL000018,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,25.00,2026-02-01T19:30:28.5029679,NON
+BIL000019,Leila Bourhim,leila.bourhim@mail.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,225.00,2026-02-01T19:30:51.3699498,
+BIL000020,Amine Bidouni,amine.bidouni@press.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,350.00,2026-02-01T19:31:10.0553181,NON
+BIL000021,Sara Amrani,sara.amrani@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,50.00,2026-02-01T19:32:02.2729905,
+BIL000022,Samira El Omari,samira.el.omari@mail.ma,MAT001,Maroc,Zambie,Zone 1,CONFIRME,90.00,2026-02-01T19:32:48.97635,
+BIL000023,Rachid Bekkali,rachid.bekkali@mail.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,225.00,2026-02-01T19:32:59.7797976,
+BIL000024,Rachid Bekkali,rachid.bekkali@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,RESERVE,50.00,2026-02-01T19:33:46.9806657,
+BIL000025,Samira El Omari,samira.el.omari@mail.ma,MAT001,Maroc,Zambie,Zone 1,RESERVE,90.00,2026-02-01T19:34:19.6104846,
+BIL000026,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,25.00,2026-02-01T19:34:37.6662714,NON
+BIL000027,Adil Saidi,adil.saidi@mail.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,202.50,2026-02-01T19:34:54.4445239,
+BIL000028,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,350.00,2026-02-01T19:36:46.3515333,NON
+BIL000029,Samira El Omari,samira.el.omari@mail.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,700.00,2026-02-01T19:37:17.9818104,
+BIL000030,Najat El Idrissi,najat.el.idrissi@mail.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,225.00,2026-02-01T19:37:47.3619273,
+BIL000031,Hicham El Alaoui,hicham.el.alaoui@mail.ma,MAT001,Maroc,Zambie,Zone 1,CONFIRME,81.00,2026-02-01T19:38:00.8483352,
+BIL000032,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,25.00,2026-02-01T19:38:11.880898,NON
+BIL000033,Nour El Khattabi,nour.el.khattabi@mail.ma,MAT001,Maroc,Zambie,Zone 1,CONFIRME,90.00,2026-02-01T19:38:52.0038121,
+BIL000034,Rachid Bekkali,rachid.bekkali@mail.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,700.00,2026-02-01T19:39:13.1940792,
+BIL000035,Siham El Gharbi,siham.el.gharbi@mail.ma,MAT001,Maroc,Zambie,VIP,CONFIRME,225.00,2026-02-01T19:39:32.6004694,
+BIL000036,Walid El Fadili,walid.el.fadili@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,50.00,2026-02-01T19:39:56.4892394,
+BIL000037,Walid El Fadili,walid.el.fadili@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,50.00,2026-02-01T19:40:17.5719139,
+BIL000038,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,VIP,CONFIRME,350.00,2026-02-01T19:40:36.5359141,NON
+BIL000039,Amine Chafai,amine.chafai@mail.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,45.00,2026-02-01T19:40:55.4524524,
+BIL000040,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT002,Nigeria,Guinée équatoriale,Zone 1,CONFIRME,25.00,2026-02-01T19:41:33.9690172,NON
+BIL000042,Rida Hasnaoui,rida.hasnaoui@press.ma,MAT001,Maroc,Zambie,Zone 2,CONFIRME,60.00,2026-02-01T19:50:14.9404039,NON

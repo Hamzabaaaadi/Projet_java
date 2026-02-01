@@ -1,0 +1,130 @@
+[
+  {
+    "equipe1": "Maroc",
+    "equipe2": "Zambie",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-01-01T20:00",
+    "importance": 1.50,
+    "capacite": 21477
+  },
+  {
+    "equipe1": "Nigeria",
+    "equipe2": "Guinée équatoriale",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-01-02T17:00",
+    "importance": 1.00,
+    "capacite": 59022
+  },
+  {
+    "equipe1": "Égypte",
+    "equipe2": "Ghana",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-01-05T20:00",
+    "importance": 1.00,
+    "capacite": 34915
+  },
+  {
+    "equipe1": "Maroc",
+    "equipe2": "Cameroun",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-01-05T20:00",
+    "importance": 1.50,
+    "capacite": 34911
+  },
+  {
+    "equipe1": "Sénégal",
+    "equipe2": "Cameroun",
+    "stade": "Agadir",
+    "dateHeure": "2025-01-07T18:00",
+    "importance": 1.50,
+    "capacite": 31268
+  },
+  {
+    "equipe1": "Maroc",
+    "equipe2": "Mali",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-01-08T21:00",
+    "importance": 1.50,
+    "capacite": 33893
+  },
+  {
+    "equipe1": "Algérie",
+    "equipe2": "Nigeria",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-01-09T20:00",
+    "importance": 1.50,
+    "capacite": 37775
+  },
+  {
+    "equipe1": "Maroc",
+    "equipe2": "Sénégal",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-01-15T21:00",
+    "importance": 2.00,
+    "capacite": 57207
+  },
+  {
+    "equipe1": "Nigeria",
+    "equipe2": "Égypte",
+    "stade": "Casablanca",
+    "dateHeure": "2025-01-13T20:00",
+    "importance": 1.50,
+    "capacite": 38771
+  },
+  {
+    "equipe1": "Maroc",
+    "equipe2": "Nigeria",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2025-02-20T21:00",
+    "importance": 2.00,
+    "capacite": 55649
+  },
+  {
+    "equipe1": "gabon",
+    "equipe2": "ghana",
+    "stade": "Marrakech",
+    "dateHeure": "2026-01-01T20:00",
+    "importance": 1.00,
+    "capacite": 45000
+  },
+  {
+    "equipe1": "congo",
+    "equipe2": "nijer",
+    "stade": "Casablanca",
+    "dateHeure": "2026-01-14T16:00",
+    "importance": 1.10,
+    "capacite": 70000
+  },
+  {
+    "equipe1": "maroc",
+    "equipe2": "ghana",
+    "stade": "Tanger",
+    "dateHeure": "2026-01-12T18:00",
+    "importance": 1.00,
+    "capacite": 40000
+  },
+  {
+    "equipe1": "maroc",
+    "equipe2": "niger",
+    "stade": "Agadir",
+    "dateHeure": "2026-01-10T20:00",
+    "importance": 1.00,
+    "capacite": 45000
+  },
+  {
+    "equipe1": "maroc",
+    "equipe2": "alg�rie",
+    "stade": "Stade Prince Moulay Abdellah",
+    "dateHeure": "2026-01-10T19:00",
+    "importance": 2.00,
+    "capacite": 40000
+  },
+  {
+    "equipe1": "maroc",
+    "equipe2": "congo",
+    "stade": "Rabat Barid",
+    "dateHeure": "2026-01-01T20:00",
+    "importance": 1.00,
+    "capacite": 20000
+  }
+]

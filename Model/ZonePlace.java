@@ -42,7 +42,13 @@ public class ZonePlace {
     }
     
     // Getters
-    public String getNomZone() { return type.toString(); }
+    public String getNomZone() {
+        // Afficher VIP si c'est la 3e zone (ZONE3)
+        if (type.name().equalsIgnoreCase("ZONE3")) {
+            return "VIP";
+        }
+        return type.toString();
+    }
     public int getCapacite() { return capacite; }
     public double getPrix() { return prix; }
     public ZoneType getType() { return type; }
@@ -53,6 +59,6 @@ public class ZonePlace {
     @Override
     public String toString() {
         return String.format("Zone[Nom=%s, Capacité=%d, Vendu=%d, Restant=%d, Prix=%.2f]", 
-            type.toString(), capacite, placesVendues, getPlacesRestantes(), prix);
+            getNomZone(), capacite, placesVendues, getPlacesRestantes(), prix);
     }
 }
