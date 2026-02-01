@@ -1,7 +1,7 @@
 package model;
 
 public enum Stade {
-    RABAT_MOULAY_ABDELLAH("Rabat Moulay Abdellah"),
+    RABAT_MOULAY_ABDELLAH("Stade Prince Moulay Abdellah"),
     RABAT_BARID("Rabat Barid", 20000),
     CASABLANCA("Casablanca", 70000),
     TANGER("Tanger", 40000),
